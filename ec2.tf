@@ -4,6 +4,6 @@ resource "aws_instance" "abdul" {
   key_name = "okkk"
   tags = {
     Name = "Abdul-server"
-    Environment = "DevOps"
+    Environment = "DevOps-1"
   }
 }
