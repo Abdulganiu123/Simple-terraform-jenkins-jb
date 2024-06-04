@@ -1,9 +1,8 @@
-resource "aws_instance" "abdul" {
+resource "aws_instance" "ec2now" {
   ami = "ami-04ff98ccbfa41c9ad"
   instance_type = "t2.micro"
-  key_name = "okkk"
   tags = {
-    Name = "Abdul-server"
+    Name = "ec2-server"
     Environment = "DevOps-1"
   }
 }
